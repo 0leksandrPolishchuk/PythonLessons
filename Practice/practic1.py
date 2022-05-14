@@ -105,25 +105,70 @@
 #     print("To moutch")
 
 
-login_reg = input("Enter you login registration: ")
-age_reg = int(input("Enter you age: "))
+# login_reg = input("Enter you login registration: ")
+# age_reg = int(input("Enter you age: "))
+#
+# if age_reg >= 100:
+#     print("Ups), People don't live that long")
+# elif age_reg <= 18:
+#     print("Sorry you, limit age registration Only Adult")
+# elif age_reg >= 18 or age_reg <= 100:
+#     password_reg = input("Enter you password registration: ")
+#     print("Registration complete,", login_reg + ".")
+#     password_login = input("Enter you password again to login: ")
+#     if password_login == password_reg:
+#         print("Welcome to my World", login_reg + ", my Congratulation, Keep Learn")
+#     elif password_login != password_reg:
+#         print("Finito La Komedia, Good bye", login_reg + ":>)")
+#     else:
+#         print("Login error")
+# else:
+#     print("Incorrect age")
 
-if age_reg >= 100:
-    print("Ups), People don't live that long")
-elif age_reg <= 18:
-    print("Sorry you, limit age registration Only Adult")
-elif age_reg >= 18 or age_reg <= 100:
-    password_reg = input("Enter you password registration: ")
-    print("Registration complete,", login_reg + ".")
-    password_login = input("Enter you password again to login: ")
-    if password_login == password_reg:
-        print("Welcome to my World", login_reg + ", my Congratulation, Keep Learn")
-    elif password_login != password_reg:
-        print("Finito La Komedia, Good bye", login_reg + ":>)")
+
+# x = int(input("Enter how long you sleep: "))
+# y = int(input("Enter you day time sleep: "))
+# print(x * 60 + y)
+
+
+# m = int(input("Enter you optimal time sleep:  "))
+# print(m // 60)
+# print(m % 60)
+
+
+a = float(input("Please enter first number: "))
+b = float(input("Please enter second number: "))
+operation = input("Please enter you operation: ")
+
+if operation == "+":
+    print(a + b)
+elif operation == "-":
+    print(a - b)
+elif operation == "/":
+    if b == 0:
+        print("Dilennia na nul")
     else:
-        print("Login error")
-else:
-    print("Incorrect age")
+        print(a / b)
+elif operation == "*":
+    print(a * b)
+elif operation == "mod":
+    if b == 0:
+        print("Dilennia na nul")
+    else:
+        print(a % b)
+elif operation == "pow":
+    print(a ** b)
+elif operation == "div":
+    if b == 0:
+        print("Dilennia na nul")
+    else:
+        print(a // b)
+
+
+
+
+
+
 
 
 
