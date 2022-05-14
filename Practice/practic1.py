@@ -45,7 +45,6 @@
 #          "in the world, and I will tell you how many regions there are in " \
 #          "this country"
 # print(robot3)
-
 # countries = input("User:\t")
 # if countries == "Ukraine":
 #     print("Robot:\t" + countries + ",", "Have 24 regions.")
@@ -54,6 +53,8 @@
 # else:
 #     print("Robot:\tNo recognise you countries, please enter again"
 
+
+#PRACTIC IF, ElIF, ELSE,
 # a = ["USA", "UK", "Italy", "Ukraine"]
 #
 # q = input("Введіть країну: ")
@@ -62,6 +63,7 @@
 # else:
 #     print(False)
 
+# EXAMPLE CYCLE ON PYTON
 # while True:
 #     countries = input("User:\t")
 #     if countries == "Ukraine":
@@ -91,16 +93,46 @@
 #     print(name, last_name, "don't cant get drive license")
 
 
-a = int(input("Please enter minimum sleep hours: "))
-b = int(input("Please enter maximum sleep hours: "))
-h = int(input("Please enter how many hours you sleep: "))
+# a = int(input("Please enter minimum sleep hours: "))
+# b = int(input("Please enter maximum sleep hours: "))
+# h = int(input("Please enter how many hours you sleep: "))
+#
+# if h >= a and h <= b:
+#     print("Good")
+# elif h <= a:
+#     print("No good")
+# elif h >= b:
+#     print("To moutch")
 
-if h >= a and h <= b:
-    print("Good")
-elif h <= a:
-    print("No good")
-elif h >= b:
-    print("To moutch")
+
+login_reg = input("Enter you login registration: ")
+age_reg = int(input("Enter you age: "))
+
+if age_reg >= 100:
+    print("Ups), People don't live that long")
+elif age_reg <= 18:
+    print("Sorry you, limit age registration Only Adult")
+elif age_reg >= 18 or age_reg <= 100:
+    password_reg = input("Enter you password registration: ")
+    print("Registration complete,", login_reg + ".")
+    password_login = input("Enter you password again to login: ")
+    if password_login == password_reg:
+        print("Welcome to my World", login_reg + ", my Congratulation, Keep Learn")
+    elif password_login != password_reg:
+        print("Finito La Komedia, Good bye", login_reg + ":>)")
+    else:
+        print("Login error")
+else:
+    print("Incorrect age")
+
+
+
+
+
+
+
+
+
 
 
 
