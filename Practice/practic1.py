@@ -136,33 +136,61 @@
 # print(m % 60)
 
 
-a = float(input("Please enter first number: "))
-b = float(input("Please enter second number: "))
-operation = input("Please enter you operation: ")
+# a = float(input("Please enter first number: "))
+# b = float(input("Please enter second number: "))
+# operation = input("Please enter you operation: ")
+#
+# if operation == "+":
+#     print(a + b)
+# elif operation == "-":
+#     print(a - b)
+# elif operation == "/":
+#     if b == 0:
+#         print("Dilennia na nul")
+#     else:
+#         print(a / b)
+# elif operation == "*":
+#     print(a * b)
+# elif operation == "mod":
+#     if b == 0:
+#         print("Dilennia na nul")
+#     else:
+#         print(a % b)
+# elif operation == "pow":
+#     print(a ** b)
+# elif operation == "div":
+#     if b == 0:
+#         print("Dilennia na nul")
+#     else:
+#         print(a // b)
 
-if operation == "+":
-    print(a + b)
-elif operation == "-":
-    print(a - b)
-elif operation == "/":
-    if b == 0:
-        print("Dilennia na nul")
-    else:
-        print(a / b)
-elif operation == "*":
-    print(a * b)
-elif operation == "mod":
-    if b == 0:
-        print("Dilennia na nul")
-    else:
-        print(a % b)
-elif operation == "pow":
-    print(a ** b)
-elif operation == "div":
-    if b == 0:
-        print("Dilennia na nul")
-    else:
-        print(a // b)
+
+currency = input("Please enter, with currency you need exchange: ")
+
+if currency == "$":
+    rates = float(input("Please enter rate of $, against the hryvnia: "))
+    money = float(input("Please how many $ you need exchange: "))
+    print("You got:", rates * money, "UAH")
+elif currency == "British Pound":
+    rates = float(input("Please enter rate of  British Pound, against hryvnia: "))
+    money = float(input("Please how many British Pound you need exchange: "))
+    print("You got:", rates * money, "UAH")
+elif currency == "Euro":
+    rates = float(input("Please enter rate of Euro, against the hryvnia: "))
+    money = float(input("Please how many Euro you need exchange: "))
+    print("You got:", rates * money, "UAH")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
