@@ -165,20 +165,43 @@
 #         print(a // b)
 
 
-currency = input("Please enter, with currency you need exchange: ")
+# currency = input("Please enter, with currency you need exchange: ")
+#
+# if currency == "$":
+#     rates = float(input("Please enter rate of $, against the hryvnia: "))
+#     money = float(input("Please how many $ you need exchange: "))
+#     print("You got:", rates * money, "UAH")
+# elif currency == "British Pound":
+#     rates = float(input("Please enter rate of  British Pound, against hryvnia: "))
+#     money = float(input("Please how many British Pound you need exchange: "))
+#     print("You got:", rates * money, "UAH")
+# elif currency == "Euro":
+#     rates = float(input("Please enter rate of Euro, against the hryvnia: "))
+#     money = float(input("Please how many Euro you need exchange: "))
+#     print("You got:", rates * money, "UAH")
 
-if currency == "$":
-    rates = float(input("Please enter rate of $, against the hryvnia: "))
-    money = float(input("Please how many $ you need exchange: "))
-    print("You got:", rates * money, "UAH")
-elif currency == "British Pound":
-    rates = float(input("Please enter rate of  British Pound, against hryvnia: "))
-    money = float(input("Please how many British Pound you need exchange: "))
-    print("You got:", rates * money, "UAH")
-elif currency == "Euro":
-    rates = float(input("Please enter rate of Euro, against the hryvnia: "))
-    money = float(input("Please how many Euro you need exchange: "))
-    print("You got:", rates * money, "UAH")
+
+# name = "Oleksandr"
+# last_name = "Polishchuk"
+# nickname = "AlaNick"
+# email = "oleksandr.polishchuk@icloud.com"
+# password1 = "1234"
+# password2 = "1234"
+#
+# finally_name = input("Enter you name: ")
+# finally_last_name = input("Enter you last name: ")
+# finally_nickname = input("Enter you nickname: ")
+# finally_email = input("Enter you email: ")
+# finally_password1 = input("Enter you password1: ")
+# finally_password2 = input("Enter you password2: ")
+#
+# if (finally_name == name and finally_last_name == last_name and finally_nickname == nickname
+#     and finally_email == email and finally_password1 == password1
+#     and finally_password2 == password2 and
+#     password1 == password2):
+#     print("Authorisation complete")
+
+
 
 
 
