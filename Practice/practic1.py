@@ -165,11 +165,12 @@
 #         print(a // b)
 
 
-# currency = input("Please enter, with currency you need exchange: ")
+# CURRENCY EXCHANGE CALCULATOR
+# currency = input("Please enter, with currency you need exchange Dollar, UAH, Euro, British Pound: ")
 #
-# if currency == "$":
-#     rates = float(input("Please enter rate of $, against the hryvnia: "))
-#     money = float(input("Please how many $ you need exchange: "))
+# if currency == "Dollar":
+#     rates = float(input("Please enter rate of Dollar, against the hryvnia: "))
+#     money = float(input("Please how many Dollar you need exchange: "))
 #     print("You got:", rates * money, "UAH")
 # elif currency == "British Pound":
 #     rates = float(input("Please enter rate of  British Pound, against hryvnia: "))
@@ -179,6 +180,12 @@
 #     rates = float(input("Please enter rate of Euro, against the hryvnia: "))
 #     money = float(input("Please how many Euro you need exchange: "))
 #     print("You got:", rates * money, "UAH")
+# if currency == "UAH":
+#     rates = float(input("Please enter rate of UAH, against the Dollar: "))
+#     money = float(input("Please how many UAH you need exchange: "))
+#     print("You got:", rates * money, "Dollar")
+
+
 
 
 # name = "Oleksandr"
@@ -200,6 +207,10 @@
 #     and finally_password2 == password2 and
 #     password1 == password2):
 #     print("Authorisation complete")
+
+
+
+
 
 
 
