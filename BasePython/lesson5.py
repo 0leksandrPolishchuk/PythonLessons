@@ -50,6 +50,6 @@
 #         print(number)
 
 
-a = "Oleksandr"
-for i in a:
-    print(i)
+# a = "Oleksandr"
+# for i in a:
+#     print(i)
