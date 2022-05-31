@@ -79,11 +79,12 @@
 # print(len(a))
 
 
-# peoples = ["Danik", "Alex", "Emma", "John", "Travolta", "Terminator", "Robokop", "Batmen"]
-# print(peoples)
-# print(len(peoples))
-# for i in peoples:
-#     print(i, "len:", len(i))
+peoples = ["Danik", "Alex", "Emma", "John", "Travolta", "Terminator", "Robokop", "Batmen"]
+print(peoples)
+print(len(peoples))
+for i in peoples:
+    print(i, "len:", len(i))
+    
 
 
 
