@@ -79,12 +79,32 @@
 # print(len(a))
 
 
-peoples = ["Danik", "Alex", "Emma", "John", "Travolta", "Terminator", "Robokop", "Batmen"]
+# peoples = ["Danik", "Alex", "Emma", "John", "Travolta", "Terminator", "Robokop", "Batmen"]
+# print(peoples)
+# print(len(peoples))
+# for i in peoples:
+#     print(i, "len:", len(i))
+
+
+peoples = ["Oleksandr", "Alan"]
 print(peoples)
-print(len(peoples))
-for i in peoples:
-    print(i, "len:", len(i))
-    
+peoples.append("Serhii")  # Метод append - добавляє елемент в кінець листа.
+print(peoples)
+peoples.insert(1, "Alanik")  # Метол inser - добавляє елемент по індексу.
+print(peoples)
+peoples.extend([1, 2, 3])  # Метод extend - розширює  елементи в (list)
+print(peoples)
+print(peoples.index("Serhii"), peoples.index("Alanik"))  # Метод index - показує під яким індексом
+                                                         # знаходиться певний елементю.
+peoples.pop(3)
+print(peoples)  # Метод pop - видаляє елементи листа по індексу.
+peoples.remove(1)  # Метод remove - видаляє по значенню.
+print(peoples)
+peoples.clear()  # Метод clear - видаляє всі елементи з (list)
+print(peoples)
+
+
+
 
 
 

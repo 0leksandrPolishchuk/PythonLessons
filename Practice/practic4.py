@@ -53,9 +53,109 @@
 #         print(i)
 
 
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-for i in a:
-    if i <= 5:
-        print(i)
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# for i in a:
+#     if i <= 5:
+#         print(i)
+
+
+# print("  |REGISTRATION|")
+# print("input limit 3 times ")   # Ліміт реєстрації, пароль та логін адміністратора.
+# print("-------------------")
+#
+# admin = input("enter new admin: ")
+#
+# while True:
+#     admin_repeat = input("enter admin again: ")
+#
+#     if admin_repeat == admin:
+#         print("Successfully")
+#         break
+#     elif admin_repeat != admin:
+#         print("<!!! 2 attempts left !!!>")
+#     admin_repeat2 = input("enter new admin again: ")
+#
+#     if admin_repeat2 == admin:
+#         print("Successfully")
+#         break
+#     elif admin_repeat2 != admin:
+#         print("<!!! 2 attempts left !!!>")
+#     admin_repeat1 = input("enter new admin again: ")
+#
+#     if admin_repeat1 == admin:
+#         print("Successfully")
+#         break
+#     elif admin_repeat1 != admin:
+#         print("Registration Locked")
+#         break
+#
+# password = input("enter new password: ")
+#
+# while True:
+#     password_repeat = input("enter password again: ")
+#
+#     if password_repeat == password:
+#         print("Successfully")
+#         break
+#     elif password_repeat != password:
+#         print("<!!! 2 attempts left !!!>")
+#     password_repeat1 = input("enter password again: ")
+#
+#     if password_repeat1 == password:
+#         print("Successfully")
+#         break
+#     elif password_repeat1 != password:
+#         print("<!!! 1 attempts left !!!>")
+#     password_repeat2 = input("enter password again: ")
+#
+#     if password_repeat2 == password:
+#         print("Successfully")
+#         break
+#     elif password_repeat2 != password:
+#         print("Registration Locked")
+#         break
+
+
+# a = 1
+# b = 2
+# a, b = b, a
+# print(b, a)
+
+
+# users = ["Alan", "Dima", "Danik", "Emma", "Petro"]
+# x = input("input user: ")
+#
+# if x in users:
+#     print(True)
+# else:
+#     print(False)
+
+#Приймаєм дані від користувача, та записуєм їх в список(list).
+# users = []
+#
+# while True:
+#     user = input("please input you name: ")
+#     if user == "stop":
+#         break
+#     else:
+#         users.append(user)
+#
+# print(users)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
