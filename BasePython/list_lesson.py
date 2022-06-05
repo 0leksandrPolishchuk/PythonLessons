@@ -1,4 +1,4 @@
-# Spysok (list) - typ dannych
+# Список (list) - тип данних.
 
 
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -90,31 +90,15 @@ peoples = ["Oleksandr", "Alan"]
 print(peoples)
 peoples.append("Serhii")  # Метод append - добавляє елемент в кінець листа.
 print(peoples)
-peoples.insert(1, "Alanik")  # Метол inser - добавляє елемент по індексу.
+peoples.insert(1, "Alanik")  # Метод insert - добавляє елемент по індексу.
 print(peoples)
 peoples.extend([1, 2, 3])  # Метод extend - розширює  елементи в (list)
 print(peoples)
 print(peoples.index("Serhii"), peoples.index("Alanik"))  # Метод index - показує під яким індексом
-                                                         # знаходиться певний елементю.
-peoples.pop(3)
-print(peoples)  # Метод pop - видаляє елементи листа по індексу.
-peoples.remove(1)  # Метод remove - видаляє по значенню.
-print(peoples)
-peoples.clear()  # Метод clear - видаляє всі елементи з (list)
-print(peoples)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                                         # знаходиться певний елемент.
+# peoples.pop(3)  # Метод pop - видаляє елементи листа по індексу.
+# print(peoples)
+# peoples.remove(1)  # Метод remove - видаляє по значенню.
+# print(peoples)
+# peoples.clear()  # Метод clear - видаляє всі елементи з (list)
+# print(peoples)
