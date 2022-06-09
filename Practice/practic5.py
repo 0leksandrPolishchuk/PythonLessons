@@ -88,3 +88,6 @@
 
 # numbers = [4, 10, 28, 30, 60, 89, 90, 100]
 # print(max(numbers) / len(numbers))
+
+# a = True
+# print(type(a))
