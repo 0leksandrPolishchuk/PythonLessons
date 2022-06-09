@@ -155,7 +155,7 @@
 
 
 # numbers = [5, 50, 37, 80, 24, 45, 2, 100]
-# print(sorted(numbers))
+# print(sorted(numbers)) # Функція - sorted сортує по зростанню
 # print(numbers)
 # numbers.sort()
 # print(numbers)
@@ -199,7 +199,10 @@
 #     ["Inna", 38],
 #     ["Emma", 9]
 # ]
-# print(users)
+# # print(users)
 # print(users[-1][0])
 # print(users[1][0])
 # print(users[0][2])
+
+
+
