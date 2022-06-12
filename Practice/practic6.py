@@ -1,10 +1,18 @@
+print("<USER AND PASSWORD VERIFICATION>")
+
 users_pass = [["Oleksandr", "Alex1985"], ["Alan", "AlanAlan"],
               ["Agnieszka", "1988"], ["Emma", "2013"], ["Daniel", "2010"]]
 test = False
+test1 = False  # Призначення змінної з булевим значенням до блоку, зміни логіну
+test2 = False  # Призначення змінної з булевим значенням до блоку, зміни пароля
+login1 = "l"
+password2 = "p"
 
+# Тут Провіряємо логін та пароль в сприскую
 while True:
     login = input(" enter login: ")
     password = input("enter password: ")
+
     if login in users_pass[0] and password in users_pass[0]:
         print("Accept")
         test = True
@@ -26,12 +34,30 @@ while True:
         test = True
         break
     else:
-        print("Error!")
+        print("Error! What you want change, enter l: <login> or  p: <password>")
         break
 
+# Тут вибираємо що будем змінювати.
 if not test:
     while True:
+        user_or_pass = input("enter option please: ")
+
+        if user_or_pass == password2:
+            print("Password selected")
+            test2 = True
+            break
+        elif user_or_pass == login1:
+            print("Login selected")
+            test1 = True
+            break
+        else:
+            print("Error! ENTER AGAIN")
+
+# Тут Змінюємо пароль.
+if not test1:
+    while True:
         user_login = input("enter user login, witch  you need change password: ")
+
         if user_login in users_pass[0]:
             change_pass = input("enter new password: ")
 
@@ -57,14 +83,51 @@ if not test:
 
             users_pass[4][1] = change_pass
             print(users_pass)
+            break
+        else:
+            user_login = "Stop"
+            print("Done, Password Changed")
+            break
 
+# Тут змінюємо логін.
+if not test2:
+    while True:
+        user_login = input("enter login, witch you need change : ")
 
+        if user_login in users_pass[0]:
+            change_login = input("enter new login: ")
+
+            users_pass[0][0] = change_login
+            print(users_pass)
+        elif user_login in users_pass[1]:
+            change_pass = input("enter new login: ")
+
+            users_pass[1][0] = change_pass
+            print(users_pass)
+        elif user_login in users_pass[2]:
+            change_login = input("enter new password: ")
+
+            users_pass[2][0] = change_login
+            print(users_pass)
+        elif user_login in users_pass[3]:
+            change_pass = input("enter new login: ")
+
+            users_pass[3][0] = change_pass
+            print(users_pass)
+        elif user_login in users_pass[4]:
+            change_pass = input("enter new login: ")
+
+            users_pass[4][0] = change_pass
+            print(users_pass)
+            break
+        else:
+            user_login = "Stop"
+            print("Done, Password Changed")
+            break
 
 
 # users_pass = [["Oleksandr", "Alex1985"], ["Alan", "AlanAlan"],
 #               ["Agnieszka", "1988"], ["Emma", "2013"], ["Daniel", "2010"]]
-#
-#
 # for i in users_pass:
 #     print("Password: ", i[1])
 #     print("Login: ", i[0])
@@ -72,10 +135,6 @@ if not test:
 #     print("Password: ", i[1])
 
 
-
-
-#
-#
 # numbers = [45, "Alex", 50]
 # print(numbers)
 # numbers.append(True)
