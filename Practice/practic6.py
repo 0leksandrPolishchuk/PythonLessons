@@ -3,10 +3,6 @@ print("<USER AND PASSWORD VERIFICATION>")
 users_pass = [["Oleksandr", "Alex1985"], ["Alan", "AlanAlan"],
               ["Agnieszka", "1988"], ["Emma", "2013"], ["Daniel", "2010"]]
 test = False
-test1 = False  # Призначення змінної з булевим значенням до блоку, зміни логіну
-test2 = False  # Призначення змінної з булевим значенням до блоку, зміни пароля
-login1 = "l"
-password2 = "p"
 
 # Тут Провіряємо логін та пароль в сприскую
 while True:
@@ -14,24 +10,15 @@ while True:
     password = input("enter password: ")
 
     if login in users_pass[0] and password in users_pass[0]:
-        print("Accept")
-        test = True
-        break
+        print("in list")
     elif login in users_pass[1] and password in users_pass[1]:
-        print("Accept")
-        test = True
-        break
+        print("in list")
     elif login in users_pass[2] and password in users_pass[2]:
-        print("Accept")
-        test = True
-        break
+        print("in list")
     elif login in users_pass[3] and password in users_pass[3]:
-        print("Accept")
-        test = True
-        break
+        print("in list")
     elif login in users_pass[4] and password in users_pass[4]:
-        print("Accept")
-        test = True
+        print("in list")
         break
     else:
         print("Error! What you want change, enter l: <login> or  p: <password>")
@@ -42,19 +29,21 @@ if not test:
     while True:
         user_or_pass = input("enter option please: ")
 
-        if user_or_pass == password2:
+        if user_or_pass == "p":
             print("Password selected")
             test2 = True
             break
-        elif user_or_pass == login1:
+        elif user_or_pass == "l":
             print("Login selected")
             test1 = True
             break
         else:
             print("Error! ENTER AGAIN")
 
+test = False
+
 # Тут Змінюємо пароль.
-if not test1:
+if not test:
     while True:
         user_login = input("enter user login, witch  you need change password: ")
 
@@ -87,10 +76,12 @@ if not test1:
         else:
             user_login = "Stop"
             print("Done, Password Changed")
-            break
+
+
+test = False
 
 # Тут змінюємо логін.
-if not test2:
+if not test:
     while True:
         user_login = input("enter login, witch you need change : ")
 
