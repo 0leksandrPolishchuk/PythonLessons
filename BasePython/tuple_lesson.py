@@ -51,3 +51,34 @@
 # name, age, company = ("Oleksandr", 37, "Lexus")
 # print(age)
 # print(company)
+
+
+# cars = ("Audi", 5.6, "BMW", 10, 100, "Lexus", "Opel")
+# print(cars)
+# print(cars[2:])
+# print(cars[2:5])
+# print(cars[:5])
+
+
+# numbers = (30, 25, 5.0, "Alex")
+#
+# for i in numbers:
+#     print(i)
+
+
+# numbers = (30, 25, 5.0, "Alex")
+# i = 0
+# while i < len(numbers):
+#     print(numbers[i])
+#     i += 1
+
+
+# users = ("Vasia", "Dima", "Max", "Kolia")
+# user = input("enter users: ")
+#
+# if user in users:
+#     print(True)
+# else:
+#     print(False)
+
+
