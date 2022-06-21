@@ -26,7 +26,7 @@
 # print(numbers[5:8])
 # print(numbers[6:])
 # print(numbers[::2])
-#
+
 # i = 0
 # while i < len(numbers):
 #     print(numbers[i])
