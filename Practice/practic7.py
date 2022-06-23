@@ -31,3 +31,37 @@
 # while i < len(numbers):
 #     print(numbers[i])
 #     i += 1
+
+
+# numbers = list(range(1, 100, 3))
+# print(numbers)
+
+
+# numbers = []
+# for i in range(1, 100, 3):
+#     numbers.append(i)
+# print(numbers)
+
+
+# numbers = [5, 10, 20, 35, 45, 60, 86, 100]
+# numbers.reverse()
+# print
+
+#
+# numbers = []
+# for i in range(100, 120):
+#     numbers.append(i)
+# print(numbers)
+
+
+# numbers = []
+# a = 0
+# while True:
+#     number = int(input("enter number: "))
+#     a += number
+#     if a == 0:
+#         break
+#     else:
+#         numbers.append(number)
+# print(numbers)
+
