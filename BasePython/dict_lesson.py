@@ -159,13 +159,13 @@
 # all_peoples.update(peoples_name)
 # print(all_peoples)
 
-# years = {
-#     2021: "Alan birthday",
-#     1985: "Oleksandr birthday",
-#     1988: "Agnieszka birthday"
-# }
-# for i in years:
-#     print(i)
+years = {
+    2021: "Alan birthday",
+    1985: "Oleksandr birthday",
+    1988: "Agnieszka birthday"
+}
+for i in years:
+    print(i)
 
 # years = {
 #     2021: "Alan birthday",
@@ -200,8 +200,8 @@
 # print(users)
 # print(users["Oleksandr"])
 # print(users["Oleksandr"]["email"])
-#
-#
+
+
 # for i in users.values():
 #     for j in i.values():
 #         print(j)
