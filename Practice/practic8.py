@@ -67,6 +67,3 @@ while True:
     for m in methods:
         if data_check == "all method":
             print(m)
-            break
-        else:
-            print("Error")
