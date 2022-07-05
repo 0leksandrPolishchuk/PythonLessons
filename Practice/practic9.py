@@ -183,28 +183,20 @@
 #     print(i)
 
 
-names = {
-    "ford": {
-        "age": "1987",
-        "colour": "Grey"
-        },
-    "BMW": {
-        "age": "2000",
-        "colour": "Blue"
-    },
-    "Opel": {
-        "age": "2021",
-        "colour": "Red"
-    }
-
-}
-print(names)
-print(names["ford"]["age"])
-
-
-
-
-
-
-
-
+# names = {
+#     "ford": {
+#         "age": "1987",
+#         "colour": "Grey"
+#         },
+#     "BMW": {
+#         "age": "2000",
+#         "colour": "Blue"
+#     },
+#     "Opel": {
+#         "age": "2021",
+#         "colour": "Red"
+#     }
+#
+# }
+# print(names)
+# print(names["ford"]["age"])
