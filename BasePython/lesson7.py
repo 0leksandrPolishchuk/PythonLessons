@@ -52,19 +52,57 @@
 # print(user_inf(n, a))
 
 
-def number_inf(a, b):
-    return a + b
+# def number_inf(a, b):
+#     return a + b
+#
+#
+# while True:
+#     f = int(input("Enter first number: "))
+#     s = int(input("Enter second number: "))
+#     if f == 0:
+#         print("Обробка данних завершена. ")
+#         break
+#     else:
+#         print(number_inf(f, s))
 
 
-while True:
-    f = int(input("Enter first number: "))
-    s = int(input("Enter second number: "))
-    if f == 0:
-        print("Обробка данних завершена. ")
-        break
-    else:
-        print(number_inf(f, s))
+# def f(x):
+#     if x <= -2:
+#         return 1 - pow((x + 2), 2)
+#     elif -2 < x <= 2:
+#         return - x / 2
+#     elif 2 < x:
+#         return pow((x - 2), 2) + 1
+#
+#
+# print(f(1))
 
 
+# def modify_list(l):
+#     a = []
+#     for i in l:
+#         if i % 2 == 0:
+#             a.append(i // 2)
+#     return a
+#
+#
+# print(modify_list([5, 4, 10, 3, 2, 11]))
 
+
+# d_test = {
+#     1: [],
+#     2: ["Alex", 35]
+# }
+#
+#
+# def update_dictionary(d, key, value):
+#     if key in d:
+#         d[key].append(value)
+#     if key is not d:
+#         if 2 * key is d:
+#             d[2 * key].append(value)
+#
+#
+# update_dictionary(d_test, 1, "Alex")
+# print(d_test)
 
