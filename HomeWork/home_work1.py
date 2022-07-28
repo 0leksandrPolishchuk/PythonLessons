@@ -38,3 +38,51 @@
 #
 #
 # print(day_inf())
+
+
+# Задача №3
+# firstContract = 2000
+#
+#
+# def salary1_inf():
+#     return firstContract * 12
+#
+#
+# def salary2_inf():
+#     global firstContract
+#     firstContract = 3500
+#     return firstContract * 12
+#
+#
+# print(firstContract)
+# print(salary1_inf())
+# print(salary2_inf())
+# print(firstContract)
+
+
+# value = float(input("Please enter value: "))
+# percent = int(input("Enter how many percent you want get: "))
+# print((value * percent) / 100)
+
+# Задача 1
+# def sell_offer(offer):
+#     return (offer * 15) / 100
+#
+#
+# item = float(input("Enter items value: "))
+# print(sell_offer(item))
+
+
+# Описати функцію оренди авто яка приймає назву авто, ціну за оренду за годину та кількість бажаних годин оренди.
+# Повернути формат "Ціна <назва авто> на <кількість годин> = підрахувати ціну оренди".
+# Значення параметрів функціїї приймаються від користувача.
+
+# def rent_car(car, price, time):
+#     result = f"Price {car} on {time} hours = {time * price}"
+#     return result
+
+
+# carName = input("Please select model car: ")
+# rentPrice = int(input("Enter price per car: "))
+# rentTime = float(input("Enter how long you want rent car: "))
+# print(rent_car(carName, rentPrice, rentTime))
