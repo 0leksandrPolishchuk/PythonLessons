@@ -73,6 +73,7 @@
 # print(sell_offer(item))
 
 
+# Задача
 # Описати функцію оренди авто яка приймає назву авто, ціну за оренду за годину та кількість бажаних годин оренди.
 # Повернути формат "Ціна <назва авто> на <кількість годин> = підрахувати ціну оренди".
 # Значення параметрів функціїї приймаються від користувача.
@@ -86,3 +87,82 @@
 # rentPrice = int(input("Enter price per car: "))
 # rentTime = float(input("Enter how long you want rent car: "))
 # print(rent_car(carName, rentPrice, rentTime))
+
+
+# Написати функцію яка повертає значення True якщо число входить в проміжок від 0 о 10
+# і повертає False якщо число менше 0.
+
+
+# def number_inf(a):
+#     if a >= 0 and a <= 10:
+#         return True
+#     elif a <= 0:
+#         return False
+#
+#
+# b = int(input("Enter number: "))
+# print(number_inf(b))
+
+
+# Написати функцію яка приймає параметрами по стандарту age and name і задає їм стандартні
+# значення age = 18, name = Vasil в функції за бажанням користувач має можливість змінити значення змінних або вивести
+# результат з значеннями по стандарту.
+
+
+# def people_inf(age=18, name="Vasil"):
+#     question = input("Enter question: ")
+#     if question == "yes":
+#         age = int(input("Change age: "))
+#         name = input("Change name: ")
+#         return age, name
+#     else:
+#         return age, name
+#
+#
+# print(people_inf())
+
+
+# Описати функцію яка обчислує скільки років потрібно людині для виходу на пенсію. Якщо пенсійний вік = 65 років.
+
+
+# def old_people(age):
+#     return 65 - age
+#
+#
+# print(old_people(30))
+
+
+# Ціна оренди квартири становить 8000 за місяць але після зміни контракту ціна встановлена на рівні 12000,
+# описати функціїї які обчислють плату за рік в обох випадках.
+
+
+# rentFlat = 8000
+#
+#
+# def rent_info():
+#     return rentFlat * 12
+#
+#
+# def rent2_info():
+#     global rentFlat
+#     rentFlat = 12000
+#     return rentFlat * 12
+#
+#
+# print(rent_info())
+# print(rent2_info())
+
+
+# Описати функцію яка приймає слово і максимальну кількість дозволених літер в слові. Якщо слово проходить валідацію
+# (кількість букс в слові < максимальна кількість букв) то повертається значення True а в іншому випадку значення False.
+
+
+# def word_inf(word, wordmax):
+#     if len(word) < wordmax:
+#         return True
+#     else:
+#         return False
+#
+#
+# print(word_inf("name", 3))
+
